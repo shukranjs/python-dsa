@@ -18,7 +18,7 @@ class LinkedList:
         self.head = None
 
     def insert_at_head(self, data: Any) -> None:
-        new_node = None(data)
+        new_node = Node(data)
         new_node.next = self.head
         self.head = new_node
 
